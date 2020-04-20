@@ -30,7 +30,6 @@ function CartTotals(props){
 							<strong>$ {cartTotal}</strong>
 						</h5>
 
-						<PayPalButton total={cartTotal} clearCart={cartTotal} history={history}/>
 					</div>	
 				</div>
 			</div>
